@@ -1,0 +1,29 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3
+openledger.db
+backend/openledger.db
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment
+.env
+backend/.env
+
+# Uploads
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Node & Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
